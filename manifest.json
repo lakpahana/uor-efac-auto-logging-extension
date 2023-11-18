@@ -1,4 +1,16 @@
 {
-    "name": "LMS Auto Logging"
-    
+    "manifest_version": 3,
+    "name": "LMS Auto Logging",
+    "description": "Easily log into LMS",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "http://lms.eng.ruh.ac.lk/login/index.php"
+            ]
+        }
+    ]
 }
