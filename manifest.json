@@ -3,6 +3,16 @@
     "name": "LMS Auto Logging",
     "description": "Easily log into LMS",
     "version": "1.0",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Click to view a popup",
+        "default_popup": "options.html"
+    },
+    "permissions": [
+        "storage"
+    ],
     "content_scripts": [
         {
             "js": [
