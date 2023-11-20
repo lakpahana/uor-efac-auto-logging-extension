@@ -1,5 +1,6 @@
 console.log("options.js loaded");
 
+
 document.getElementsByName("save")[0].addEventListener("click", function (e) {
 
     e.preventDefault();
