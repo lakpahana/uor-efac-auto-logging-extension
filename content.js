@@ -1,6 +1,7 @@
 console.log("content.js loaded");
 
-
+//add mail login
+abc = "asdasd"
 
 //after page load 
 window.onload = function () {
